@@ -5,15 +5,16 @@ import style from "../style/login.css"
 const LoginUi = () => {
   return (
     <div className="parentlogin" >
-        <div className="childkuntul">
+        <div className="childkuntul" style={style.childKuntul}>
             <div className="gambar">
-                <img src={Logo} alt="" width={300} height={300}/>
+            <img src={Logo} alt="" width={10} height={20}/>
             </div>
             <div className="cardlogin">
                 <h1 className="titlelogin">Selamat Datang!</h1>
-                <input placeholder="Masukan Kontol" type={"email"}/>
-                <input placeholder="Masukan memek" type={"password"}/>
+                <input placeholder="Masukan username" type={"email"}/>
+                <input placeholder="Masukan password" type={"password"}/>
                 <button>Login</button>
+                
             </div>
         </div>
     </div>

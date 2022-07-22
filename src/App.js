@@ -1,8 +1,9 @@
 import React from "react";
 import LoginUi from "./components/login";
+import userKontol from "./components/user";
 
-function App() {
-  return <LoginUi />;
+function login() {
+  return <userKontol />;
 }
 
-export default App;
+export default userKontol;
